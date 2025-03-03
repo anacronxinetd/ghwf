@@ -7,5 +7,5 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: sdfdsf
-          run: echo "${{ github.event }}
+          run: echo "${{ github.event }}"
 
