@@ -1,7 +1,7 @@
 name: events
 on:
   - push
-  - workflow_dispath
+  - workflow_dispatch
 jobs:
   echo_event:
     runs-on: ubuntu-latest
