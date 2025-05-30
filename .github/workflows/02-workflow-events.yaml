@@ -4,7 +4,7 @@ on:
   - workflow_dispatch
 jobs:
   echo_event:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: echo event
         run: echo ${{ github.event }}
